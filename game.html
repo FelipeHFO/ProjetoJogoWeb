@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Projeto Avaliativo</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body onload="criaCores(),mudaForma()"> <!-- SE INVERTER AS FUNÇÕES DO ONLOAD NÃO IRÁ FUNCIONAR, POIS TEM QUE CRIAR AS CORES ANTES DE CRIAR OS OBJETOS -->
+
+    <div id="conteudo">
+
+        <div id="header">
+
+            <h1>Jogo de Puzzle</h1>
+
+        </div>
+
+        <div id="mesa">
+
+            <div id="palco1"></div>
+            <div id="palco2"></div>
+            <div id="palco3"></div>
+            <div id="palco4"></div>
+            <p>Mesa</p>
+        </div>
+
+        <h4>Escolha a forma geométrica igual a que está logo abaixo!</h4>
+
+        <div id="menu">
+
+            <div id="mao">
+                <div id="forma"></div>
+                <p>Sua mão</p>
+            </div>
+
+            <button onclick="mudaForma()">Mudar objeto</button>
+
+        </div>
+
+    </div>
+
+    <div id="placar">
+        <h1>Placar</h1>
+        
+        <div id="resultado"> 
+            <h3>Seus pontos</h3>
+            <p id="pontos">0</p>
+        </div>
+    </div>
+    
+</body>
+</html>

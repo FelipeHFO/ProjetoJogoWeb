@@ -1,0 +1,211 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+#conteudo{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    align-items: center;
+    box-shadow: 1px 1px 10px black;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+
+#mesa{
+    width: 500px;
+    box-shadow: 1px 1px 3px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#mesa p{
+    font-weight: bold;
+}
+
+#palco1{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+#palco2{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+#palco3{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+#palco4{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+#menu p{
+    font-weight: bold;
+}
+
+#menu button{
+    height: 55px;
+    width: 150px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+#forma{
+    margin-top: 10px;
+}
+
+#mao{
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    box-shadow: 1px 1px 3px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#placar{
+    width: 500px;
+    height: 940px;
+    box-shadow: 1px 1px 10px black;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#resultado{
+    width: 350px;
+    height: 350px;
+    box-shadow: 1px 1px 3px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pontos{
+    font-size: 100px;
+    margin-top: 55px;
+}
+
+#ideia{
+    margin-bottom: 100px;
+}
+
+#nav{
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+}
+
+#nav a{
+    background-color: rgba(0, 26, 255, 0.5);
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+#quemSomos{
+    margin-bottom: 100px;
+}
+
+/* FORMAS GEOMéTRICAS */
+
+.quadrado{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.quadrado:hover{
+    
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+
+.triangulo{
+    width: 1px;
+    height: 1px;
+    margin: 10px;
+    border: solid 50px transparent;
+    border-bottom: solid 50px red;
+    border-top: none;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+.triangulo:hover{
+    filter:drop-shadow(2px 2px 10px black);
+    filter:drop-shadow(.6rem .6rem 1rem .3rem black);
+
+}   
+
+.circulo{
+    background-color: red;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.circulo:hover{
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+
+.losango{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.losango:hover{
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+
